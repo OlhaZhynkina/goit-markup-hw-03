@@ -164,6 +164,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    min-width: 169px
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -272,6 +273,7 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px
 }
 
 .portfolio-list-title {
@@ -307,20 +309,26 @@ img {
 
 .footer {
     background: #2e2f42;
+    padding-top: 100px;
+        padding-bottom: 100px;
 }
 
-.footer .container {
+/* .footer .container {
     padding-top: 100px;
     padding-bottom: 100px;
-}
+} */
 
 .footer-descr {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
     max-width: 264px;
+}
+
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 16px
 }
 
 .logo-studio-footer {
