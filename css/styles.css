@@ -262,6 +262,7 @@ img {
 .team-list-item {
     background: #fff;
     border-radius: 0 0 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 /* -------------------------------------- */
@@ -294,6 +295,7 @@ img {
 
 .portfolio-list-item {
     background: #fff;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-card-content {
