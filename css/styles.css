@@ -1,3 +1,5 @@
+/* #region BASE STYLES */
+
 body {
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
@@ -30,6 +32,8 @@ img {
     display: block;
 }
 
+/* #endregion */
+
 .container {
     max-width: 1158px;
     padding-left: 15px;
@@ -44,9 +48,15 @@ img {
 
 .section-title {
     margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
 }
 
-/* -----------------HEADER----------------- */
+/* #region HEADER */
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -126,9 +136,9 @@ img {
     color: #404bbf;
 }
 
-/* -------------------------------------- */
+/* #endregion */
 
-/* -----------------HERO----------------- */
+/* #region HERO */
 
 .section:first-child {
     background-color: #2e2f42;
@@ -171,9 +181,9 @@ img {
     background: #404bbf;
 }
 
-/* -------------------------------------- */
+/* #endregion */
 
-/* -------------ADVANTAGES--------------- */
+/* #region ADVANTAGES */
 
 .visually-hidden {
     position: absolute;
@@ -186,15 +196,6 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.section-title {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: #2e2f42;
 }
 
 .adv-list {
@@ -223,9 +224,9 @@ img {
     color: #434455;
 }
 
-/* -------------------------------------- */
+/* #endregion */
 
-/* ---------------OUR TEAM--------------- */
+/* #region OUR TEAM */
 
 .section:nth-child(3) {
     background-color: #F4F4FD;
@@ -265,9 +266,9 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
-/* -------------------------------------- */
+/* #endregion */
 
-/* -------------OUR PORTFOLIO------------ */
+/* #region OUR PORTFOLIO */
 
 .portfolio-list {
     display: flex;
@@ -305,9 +306,9 @@ img {
     border-right: 1px solid #e7e9fc;
 }
 
-/* -------------------------------------- */
+/* #endregion */
 
-/* ----------------FOOTER---------------- */
+/* #region FOOTER */
 
 .footer {
     background: #2e2f42;
@@ -316,8 +317,7 @@ img {
 }
 
 /* .footer .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    
 } */
 
 .footer-descr {
@@ -341,3 +341,5 @@ img {
     text-transform: uppercase;
     color: #f4f4fd;
 }
+
+/* #endregion */
