@@ -104,7 +104,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-right: 332px;
 }
 
 .nav-link {
@@ -124,6 +123,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-left: auto;
 }
 
 .contacts-list {
